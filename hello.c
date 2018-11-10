@@ -9,7 +9,7 @@ main()
   int lower, upper, step;
 
   lower = 0;    /* lower limit of temperature table */
-  upper = 55;  /* upper limit */
+  upper = 50;  /* upper limit */
   step = 2;    /* step size */
 
   celsius = lower;
