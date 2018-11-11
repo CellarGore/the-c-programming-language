@@ -5,9 +5,11 @@
 main() {
   int c;
 
-  c = getchar();
-  while (c != EOF) {
+  while ((c = getchar())) {
+    if (c ==  EOF) {
+      printf("Value of EOF: %d\n", c);
+      break;
+    }
     putchar(c);
-    c = getchar();
   }
 }
