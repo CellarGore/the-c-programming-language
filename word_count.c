@@ -20,5 +20,5 @@ int main() {
             ++nw;
         }
     }
-    printf("%d %d %d\n", nl, nw, nc);
+    printf("lines: %d, words: %d, characaters: %d\n", nl, nw, nc);
 }
